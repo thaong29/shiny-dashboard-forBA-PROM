@@ -1,0 +1,80 @@
+---
+title: "Dashboard Report"
+output: html_document
+params:
+  summary_stats: NULL
+  data_summary: NULL
+  barPlot: NULL
+  scatterPlot: NULL
+  missing_summary: NULL
+  missingPlot: NULL
+---
+
+## Analysis {.tabset .tabset-pills}
+
+```{r, echo=FALSE}
+pacman::p_load(kableExtra, DT)
+```
+
+
+### Descriptive Statistics {.tabset .tabset-pills}
+
+
+#### Table 1
+```{r, echo=FALSE}
+
+```
+
+#### Table 2
+```{r, echo=FALSE}
+
+```
+
+#### Table 3
+```{r, echo=FALSE}
+
+```
+
+#### Barplot
+```{r, echo=FALSE}
+
+
+```
+
+### Group comparison {.tabset .tabset-pills}
+
+#### Table 1
+```{r, echo=FALSE}
+
+```
+
+#### Table 2
+```{r, echo=FALSE}
+
+```
+
+#### Barplot
+```{r, echo=FALSE}
+
+
+```
+
+
+#### Table 3: Table Differences Mean Values to Baseline
+```{r, echo=FALSE}
+
+```
+
+
+#### Table 4: Test Results
+```{r, echo=FALSE}
+
+```
+
+#### Lineplot
+```{r, echo=FALSE}
+
+
+```
+
+
